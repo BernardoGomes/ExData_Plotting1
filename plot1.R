@@ -18,8 +18,6 @@ fdata <- filter(data, Date =='1/2/2007' | Date == '2/2/2007')
 
 fdata$NewDate <- strptime(paste(fdata$Date, fdata$Time), "%d/%m/%Y %T")
 
-#fdata$Date <- strptime(fdata$Date, "%d/%m/%Y")
-
 summary(fdata)
 windows()
 hist(fdata$Global_active_power, 
