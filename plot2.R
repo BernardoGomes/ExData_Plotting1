@@ -5,7 +5,7 @@ library(dplyr)
 #this script assumes that your working directory 
 #contains the file already unzipped. 
 #uncomment the following line to get to the right directory
-setwd("C:/Users/Bernardo/Documents/Coursera/04 - Exploratory Data Analysis/Code")
+#setwd("C:/Users/Bernardo/Documents/Coursera/04 - Exploratory Data Analysis/Code")
 
 file <- "household_power_consumption.txt"
 
